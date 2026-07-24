@@ -66,7 +66,7 @@
   "disable_replacement_formula": null,
   "disable_replacement_cask": null,
   "disable_args": null,
-  "tap_git_head": "9420c8ff823846075466d66e7678c4cc2791bb86",
+  "tap_git_head": "8120d20df031aa57258da0454a4b332a6105b6fe",
   "languages": [],
   "ruby_source_path": "Casks/bruno.rb",
   "ruby_source_checksum": {
