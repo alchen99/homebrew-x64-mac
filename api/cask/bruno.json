@@ -1,0 +1,151 @@
+{
+  "token": "bruno",
+  "full_token": "bruno",
+  "old_tokens": [],
+  "tap": "alchen99/unsigned-tap",
+  "name": [
+    "Bruno"
+  ],
+  "desc": "Open source IDE for exploring and testing APIs",
+  "homepage": "https://www.usebruno.com/",
+  "url": "https://github.com/usebruno/bruno/releases/download/v4.0.0/bruno_4.0.0_x64_mac.dmg",
+  "url_specs": {},
+  "version": "4.0.0",
+  "autobump": true,
+  "no_autobump_message": null,
+  "skip_livecheck": false,
+  "installed": null,
+  "installed_time": null,
+  "bundle_version": null,
+  "bundle_short_version": null,
+  "pinned": false,
+  "pinned_version": null,
+  "outdated": false,
+  "sha256": "53d49a890fb3c53a25c6807448d2134881fdb79cda7e47d13ce705d722804f05",
+  "artifacts": [
+    {
+      "app": [
+        "Bruno.app"
+      ],
+      "target": "/Applications/Bruno.app"
+    },
+    {
+      "zap": [
+        {
+          "trash": [
+            "~/Library/Application Support/bruno",
+            "~/Library/Preferences/com.usebruno.app.plist",
+            "~/Library/Saved Application State/com.usebruno.app.savedState"
+          ]
+        }
+      ]
+    }
+  ],
+  "caveats": null,
+  "caveats_rosetta": null,
+  "depends_on": {
+    "macos": {
+      ">=": [
+        "11"
+      ]
+    }
+  },
+  "conflicts_with": null,
+  "container": null,
+  "rename": [],
+  "auto_updates": true,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "deprecation_replacement_formula": null,
+  "deprecation_replacement_cask": null,
+  "deprecate_args": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "disable_replacement_formula": null,
+  "disable_replacement_cask": null,
+  "disable_args": null,
+  "tap_git_head": "9420c8ff823846075466d66e7678c4cc2791bb86",
+  "languages": [],
+  "ruby_source_path": "Casks/bruno.rb",
+  "ruby_source_checksum": {
+    "sha256": "4a4879a3ee85822b3b83e9c936dda42b3d342ac774dee26ab8559a78b5df3f41"
+  },
+  "variations": {
+    "golden_gate": {
+      "url": "https://github.com/usebruno/bruno/releases/download/v4.0.0/bruno_4.0.0_x64_mac.dmg",
+      "sha256": "53d49a890fb3c53a25c6807448d2134881fdb79cda7e47d13ce705d722804f05"
+    },
+    "tahoe": {
+      "url": "https://github.com/usebruno/bruno/releases/download/v4.0.0/bruno_4.0.0_x64_mac.dmg",
+      "sha256": "53d49a890fb3c53a25c6807448d2134881fdb79cda7e47d13ce705d722804f05"
+    },
+    "sequoia": {
+      "url": "https://github.com/usebruno/bruno/releases/download/v4.0.0/bruno_4.0.0_x64_mac.dmg",
+      "sha256": "53d49a890fb3c53a25c6807448d2134881fdb79cda7e47d13ce705d722804f05"
+    },
+    "sonoma": {
+      "url": "https://github.com/usebruno/bruno/releases/download/v4.0.0/bruno_4.0.0_x64_mac.dmg",
+      "sha256": "53d49a890fb3c53a25c6807448d2134881fdb79cda7e47d13ce705d722804f05"
+    },
+    "ventura": {
+      "url": "https://github.com/usebruno/bruno/releases/download/v4.0.0/bruno_4.0.0_x64_mac.dmg",
+      "sha256": "53d49a890fb3c53a25c6807448d2134881fdb79cda7e47d13ce705d722804f05"
+    },
+    "monterey": {
+      "url": "https://github.com/usebruno/bruno/releases/download/v4.0.0/bruno_4.0.0_x64_mac.dmg",
+      "sha256": "53d49a890fb3c53a25c6807448d2134881fdb79cda7e47d13ce705d722804f05"
+    },
+    "big_sur": {
+      "url": "https://github.com/usebruno/bruno/releases/download/v4.0.0/bruno_4.0.0_x64_mac.dmg",
+      "sha256": "53d49a890fb3c53a25c6807448d2134881fdb79cda7e47d13ce705d722804f05"
+    },
+    "catalina": {
+      "url": "https://github.com/usebruno/bruno/releases/download/v4.0.0/bruno_4.0.0_x64_mac.dmg",
+      "sha256": "53d49a890fb3c53a25c6807448d2134881fdb79cda7e47d13ce705d722804f05"
+    },
+    "x86_64_linux": {
+      "url": "https://github.com/usebruno/bruno/releases/download/v4.0.0/bruno_4.0.0_x86_64_linux.AppImage",
+      "sha256": "e07e655b83450e7b9f8789972eb37d0d49e8c33d9431f1983140fc0ebeb1ee26",
+      "artifacts": [
+        {
+          "app_image": [
+            "bruno_4.0.0_x86_64_linux.AppImage"
+          ],
+          "target": "/$HOME/Applications/bruno_4.0.0_x86_64_linux.AppImage"
+        }
+      ],
+      "depends_on": {},
+      "auto_updates": null
+    },
+    "arm64_linux": {
+      "url": "https://github.com/usebruno/bruno/releases/download/v4.0.0/bruno_4.0.0_arm64_linux.AppImage",
+      "sha256": "fe6ac8e0eaa3e6b479f8732827afb02001994af402289606f4901ac48b438b85",
+      "artifacts": [
+        {
+          "app_image": [
+            "bruno_4.0.0_arm64_linux.AppImage"
+          ],
+          "target": "/$HOME/Applications/bruno_4.0.0_arm64_linux.AppImage"
+        }
+      ],
+      "depends_on": {},
+      "auto_updates": null
+    }
+  },
+  "analytics": {
+    "install": {
+      "30d": {
+        "bruno": 5936
+      },
+      "90d": {
+        "bruno": 16825
+      },
+      "365d": {
+        "bruno": 84456
+      }
+    }
+  },
+  "generated_date": "2026-07-24"
+}
