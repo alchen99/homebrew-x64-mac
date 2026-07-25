@@ -1,0 +1,122 @@
+{
+  "token": "brave-browser",
+  "full_token": "brave-browser",
+  "old_tokens": [],
+  "tap": "homebrew/cask",
+  "name": [
+    "Brave"
+  ],
+  "desc": "Web browser focusing on privacy",
+  "homepage": "https://brave.com/",
+  "url": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable/192.144/Brave-Browser-x64.dmg",
+  "url_specs": {},
+  "version": "1.92.144.0",
+  "autobump": true,
+  "no_autobump_message": null,
+  "skip_livecheck": false,
+  "installed": null,
+  "installed_time": null,
+  "bundle_version": null,
+  "bundle_short_version": null,
+  "pinned": false,
+  "pinned_version": null,
+  "outdated": false,
+  "sha256": "0a9416e6c1b77a4241d9c99d4f6702e86ea468a013c40e992ce07cb354ae8526",
+  "artifacts": [
+    {
+      "app": [
+        "Brave Browser.app"
+      ],
+      "target": "/Applications/Brave Browser.app"
+    },
+    {
+      "zap": [
+        {
+          "trash": [
+            "~/Library/Application Support/BraveSoftware/Brave-Browser",
+            "~/Library/Caches/BraveSoftware/Brave-Browser",
+            "~/Library/Caches/com.brave.Browser",
+            "~/Library/HTTPStorages/com.brave.Browser",
+            "~/Library/Preferences/com.brave.Browser.plist",
+            "~/Library/Saved Application State/com.brave.Browser.savedState"
+          ],
+          "rmdir": [
+            "~/Library/Application Support/BraveSoftware",
+            "~/Library/Caches/BraveSoftware"
+          ]
+        }
+      ]
+    }
+  ],
+  "caveats": null,
+  "caveats_rosetta": null,
+  "depends_on": {
+    "macos": {
+      ">=": [
+        "12"
+      ]
+    }
+  },
+  "conflicts_with": null,
+  "container": null,
+  "rename": [],
+  "auto_updates": true,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "deprecation_replacement_formula": null,
+  "deprecation_replacement_cask": null,
+  "deprecate_args": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "disable_replacement_formula": null,
+  "disable_replacement_cask": null,
+  "disable_args": null,
+  "tap_git_head": "66e6a50411c3495ed3ae105d2a458189d050cf4d",
+  "languages": [],
+  "ruby_source_path": "Casks/brave-browser.rb",
+  "ruby_source_checksum": {
+    "sha256": "cd2cbb45909912ca9d3e27f88587be1709bf8a719e7c11e6c2458af721135e70"
+  },
+  "variations": {
+    "golden_gate": {
+      "url": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable/192.144/Brave-Browser-x64.dmg",
+      "sha256": "0a9416e6c1b77a4241d9c99d4f6702e86ea468a013c40e992ce07cb354ae8526"
+    },
+    "tahoe": {
+      "url": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable/192.144/Brave-Browser-x64.dmg",
+      "sha256": "0a9416e6c1b77a4241d9c99d4f6702e86ea468a013c40e992ce07cb354ae8526"
+    },
+    "sequoia": {
+      "url": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable/192.144/Brave-Browser-x64.dmg",
+      "sha256": "0a9416e6c1b77a4241d9c99d4f6702e86ea468a013c40e992ce07cb354ae8526"
+    },
+    "sonoma": {
+      "url": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable/192.144/Brave-Browser-x64.dmg",
+      "sha256": "0a9416e6c1b77a4241d9c99d4f6702e86ea468a013c40e992ce07cb354ae8526"
+    },
+    "ventura": {
+      "url": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable/192.144/Brave-Browser-x64.dmg",
+      "sha256": "0a9416e6c1b77a4241d9c99d4f6702e86ea468a013c40e992ce07cb354ae8526"
+    },
+    "monterey": {
+      "url": "https://updates-cdn.bravesoftware.com/sparkle/Brave-Browser/stable/192.144/Brave-Browser-x64.dmg",
+      "sha256": "0a9416e6c1b77a4241d9c99d4f6702e86ea468a013c40e992ce07cb354ae8526"
+    }
+  },
+  "analytics": {
+    "install": {
+      "30d": {
+        "brave-browser": 8928
+      },
+      "90d": {
+        "brave-browser": 24393
+      },
+      "365d": {
+        "brave-browser": 91135
+      }
+    }
+  },
+  "generated_date": "2026-07-25"
+}
