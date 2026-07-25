@@ -91,7 +91,7 @@
   "disable_replacement_formula": null,
   "disable_replacement_cask": null,
   "disable_args": null,
-  "tap_git_head": "5254a50de80635358be737f4517eaaedc1e1b78f",
+  "tap_git_head": "1542fce50088d4afc76f33276a454c53e03fafc5",
   "languages": [],
   "ruby_source_path": "Casks/visual-studio-code@insiders.rb",
   "ruby_source_checksum": {
