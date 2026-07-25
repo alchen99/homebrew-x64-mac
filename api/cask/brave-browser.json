@@ -2,7 +2,7 @@
   "token": "brave-browser",
   "full_token": "brave-browser",
   "old_tokens": [],
-  "tap": "homebrew/cask",
+  "tap": "alchen99/x64-mac",
   "name": [
     "Brave"
   ],
@@ -73,7 +73,7 @@
   "disable_replacement_formula": null,
   "disable_replacement_cask": null,
   "disable_args": null,
-  "tap_git_head": "66e6a50411c3495ed3ae105d2a458189d050cf4d",
+  "tap_git_head": "5254a50de80635358be737f4517eaaedc1e1b78f",
   "languages": [],
   "ruby_source_path": "Casks/brave-browser.rb",
   "ruby_source_checksum": {

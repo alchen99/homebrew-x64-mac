@@ -1,0 +1,169 @@
+{
+  "token": "gimp",
+  "full_token": "gimp",
+  "old_tokens": [],
+  "tap": "alchen99/x64-mac",
+  "name": [
+    "GIMP",
+    "GNU Image Manipulation Program"
+  ],
+  "desc": "Free and open-source image editor",
+  "homepage": "https://www.gimp.org/",
+  "url": "https://download.gimp.org/gimp/v3.2/macos/gimp-3.2.4-x86_64.dmg",
+  "url_specs": {},
+  "version": "3.2.4",
+  "autobump": true,
+  "no_autobump_message": null,
+  "skip_livecheck": false,
+  "installed": null,
+  "installed_time": null,
+  "bundle_version": null,
+  "bundle_short_version": null,
+  "pinned": false,
+  "pinned_version": null,
+  "outdated": false,
+  "sha256": "85214a388687718d30169d88b22794d6b0a89849bcc7aa456f4afb83c1326be8",
+  "artifacts": [
+    {
+      "preflight": null
+    },
+    {
+      "app": [
+        "GIMP.app"
+      ],
+      "target": "/Applications/GIMP.app"
+    },
+    {
+      "binary": [
+        "$HOMEBREW_PREFIX/Caskroom/gimp/3.2.4/gimp.wrapper.sh",
+        {
+          "target": "gimp"
+        }
+      ],
+      "target": "$HOMEBREW_PREFIX/bin/gimp"
+    },
+    {
+      "zap": [
+        {
+          "trash": [
+            "~/Library/Application Support/Gimp",
+            "~/Library/Preferences/org.gimp.gimp-3.2.plist",
+            "~/Library/Saved Application State/org.gimp.gimp-3.2.savedState"
+          ]
+        }
+      ]
+    }
+  ],
+  "caveats": null,
+  "caveats_rosetta": null,
+  "depends_on": {
+    "macos": {}
+  },
+  "conflicts_with": {
+    "cask": [
+      "gimp@dev"
+    ]
+  },
+  "container": null,
+  "rename": [],
+  "auto_updates": null,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "deprecation_replacement_formula": null,
+  "deprecation_replacement_cask": null,
+  "deprecate_args": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "disable_replacement_formula": null,
+  "disable_replacement_cask": null,
+  "disable_args": null,
+  "tap_git_head": "5254a50de80635358be737f4517eaaedc1e1b78f",
+  "languages": [],
+  "ruby_source_path": "Casks/gimp.rb",
+  "ruby_source_checksum": {
+    "sha256": "8cc28a0d63cfb37f58162a8c1b4fa21ecb37aa9c59badb4d703ab84da9feec67"
+  },
+  "variations": {
+    "golden_gate": {
+      "url": "https://download.gimp.org/gimp/v3.2/macos/gimp-3.2.4-x86_64.dmg",
+      "sha256": "85214a388687718d30169d88b22794d6b0a89849bcc7aa456f4afb83c1326be8"
+    },
+    "tahoe": {
+      "url": "https://download.gimp.org/gimp/v3.2/macos/gimp-3.2.4-x86_64.dmg",
+      "sha256": "85214a388687718d30169d88b22794d6b0a89849bcc7aa456f4afb83c1326be8"
+    },
+    "sequoia": {
+      "url": "https://download.gimp.org/gimp/v3.2/macos/gimp-3.2.4-x86_64.dmg",
+      "sha256": "85214a388687718d30169d88b22794d6b0a89849bcc7aa456f4afb83c1326be8"
+    },
+    "sonoma": {
+      "url": "https://download.gimp.org/gimp/v3.2/macos/gimp-3.2.4-x86_64.dmg",
+      "sha256": "85214a388687718d30169d88b22794d6b0a89849bcc7aa456f4afb83c1326be8"
+    },
+    "ventura": {
+      "url": "https://download.gimp.org/gimp/v3.2/macos/gimp-3.2.4-x86_64.dmg",
+      "sha256": "85214a388687718d30169d88b22794d6b0a89849bcc7aa456f4afb83c1326be8"
+    },
+    "monterey": {
+      "url": "https://download.gimp.org/gimp/v3.2/macos/gimp-3.2.4-x86_64.dmg",
+      "sha256": "85214a388687718d30169d88b22794d6b0a89849bcc7aa456f4afb83c1326be8"
+    },
+    "big_sur": {
+      "url": "https://download.gimp.org/gimp/v3.2/macos/gimp-3.2.4-x86_64.dmg",
+      "sha256": "85214a388687718d30169d88b22794d6b0a89849bcc7aa456f4afb83c1326be8"
+    },
+    "catalina": {
+      "url": "https://download.gimp.org/gimp/v2.10/macos/gimp-2.10.38-x86_64-1.dmg",
+      "version": "2.10.38,1",
+      "skip_livecheck": true,
+      "sha256": "d2d3ac20c762fe12f0dd0ec8d7c6c2f1f3a43e046ecb4ed815a49afcbaa92b92",
+      "artifacts": [
+        {
+          "preflight": null
+        },
+        {
+          "app": [
+            "GIMP.app"
+          ],
+          "target": "/Applications/GIMP.app"
+        },
+        {
+          "binary": [
+            "$HOMEBREW_PREFIX/Caskroom/gimp/2.10.38,1/gimp.wrapper.sh",
+            {
+              "target": "gimp"
+            }
+          ],
+          "target": "$HOMEBREW_PREFIX/bin/gimp"
+        },
+        {
+          "zap": [
+            {
+              "trash": [
+                "~/Library/Application Support/Gimp",
+                "~/Library/Preferences/org.gimp.gimp-2.10.plist",
+                "~/Library/Saved Application State/org.gimp.gimp-2.10.savedState"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "analytics": {
+    "install": {
+      "30d": {
+        "gimp": 4508
+      },
+      "90d": {
+        "gimp": 12009
+      },
+      "365d": {
+        "gimp": 44043
+      }
+    }
+  },
+  "generated_date": "2026-07-25"
+}

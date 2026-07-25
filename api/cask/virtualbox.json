@@ -1,0 +1,180 @@
+{
+  "token": "virtualbox",
+  "full_token": "virtualbox",
+  "old_tokens": [],
+  "tap": "alchen99/x64-mac",
+  "name": [
+    "Oracle VirtualBox"
+  ],
+  "desc": "Virtualiser for arm64 hardware",
+  "homepage": "https://www.virtualbox.org/",
+  "url": "https://download.virtualbox.org/virtualbox/7.2.14/VirtualBox-7.2.14-174565-OSX.dmg",
+  "url_specs": {},
+  "version": "7.2.14,174565",
+  "autobump": true,
+  "no_autobump_message": null,
+  "skip_livecheck": false,
+  "installed": null,
+  "installed_time": null,
+  "bundle_version": null,
+  "bundle_short_version": null,
+  "pinned": false,
+  "pinned_version": null,
+  "outdated": false,
+  "sha256": "4486ed29a342082e10506f85de47833e00ebee9c2c63ce62aad9638f4a9cedbc",
+  "artifacts": [
+    {
+      "uninstall": [
+        {
+          "script": {
+            "executable": "VirtualBox_Uninstall.tool",
+            "args": [
+              "--unattended"
+            ],
+            "sudo": true
+          },
+          "pkgutil": "org.virtualbox.pkg.*",
+          "delete": "/usr/local/bin/vboximg-mount"
+        }
+      ]
+    },
+    {
+      "pkg": [
+        "VirtualBox.pkg",
+        {
+          "choices": [
+            {
+              "choiceIdentifier": "choiceVBox",
+              "choiceAttribute": "selected",
+              "attributeSetting": 1
+            },
+            {
+              "choiceIdentifier": "choiceVBoxCLI",
+              "choiceAttribute": "selected",
+              "attributeSetting": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "postflight_steps": [
+        {
+          "steps": [
+            {
+              "paths": [
+                {
+                  "path": "/usr/local/lib/pkgconfig"
+                }
+              ],
+              "group": "staff",
+              "type": "set_ownership"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "zap": [
+        {
+          "trash": [
+            "/Library/Application Support/VirtualBox",
+            "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/org.virtualbox.app.virtualbox*",
+            "~/Library/Preferences/org.virtualbox.app.VirtualBox*",
+            "~/Library/Saved Application State/org.virtualbox.app.VirtualBox*",
+            "~/Library/VirtualBox"
+          ],
+          "rmdir": "~/VirtualBox VMs"
+        }
+      ]
+    }
+  ],
+  "caveats": null,
+  "caveats_rosetta": null,
+  "depends_on": {
+    "macos": {}
+  },
+  "conflicts_with": {
+    "cask": [
+      "virtualbox@6",
+      "virtualbox@beta"
+    ]
+  },
+  "container": null,
+  "rename": [],
+  "auto_updates": null,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "deprecation_replacement_formula": null,
+  "deprecation_replacement_cask": null,
+  "deprecate_args": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "disable_replacement_formula": null,
+  "disable_replacement_cask": null,
+  "disable_args": null,
+  "tap_git_head": "5254a50de80635358be737f4517eaaedc1e1b78f",
+  "languages": [],
+  "ruby_source_path": "Casks/virtualbox.rb",
+  "ruby_source_checksum": {
+    "sha256": "9d04eed2e13739079437d67e84b1b67ff6f80aa655cd34b46517756eff402de9"
+  },
+  "variations": {
+    "golden_gate": {
+      "desc": "Virtualiser for x86 hardware",
+      "url": "https://download.virtualbox.org/virtualbox/7.2.14/VirtualBox-7.2.14-174565-OSX.dmg",
+      "sha256": "4486ed29a342082e10506f85de47833e00ebee9c2c63ce62aad9638f4a9cedbc"
+    },
+    "tahoe": {
+      "desc": "Virtualiser for x86 hardware",
+      "url": "https://download.virtualbox.org/virtualbox/7.2.14/VirtualBox-7.2.14-174565-OSX.dmg",
+      "sha256": "4486ed29a342082e10506f85de47833e00ebee9c2c63ce62aad9638f4a9cedbc"
+    },
+    "sequoia": {
+      "desc": "Virtualiser for x86 hardware",
+      "url": "https://download.virtualbox.org/virtualbox/7.2.14/VirtualBox-7.2.14-174565-OSX.dmg",
+      "sha256": "4486ed29a342082e10506f85de47833e00ebee9c2c63ce62aad9638f4a9cedbc"
+    },
+    "sonoma": {
+      "desc": "Virtualiser for x86 hardware",
+      "url": "https://download.virtualbox.org/virtualbox/7.2.14/VirtualBox-7.2.14-174565-OSX.dmg",
+      "sha256": "4486ed29a342082e10506f85de47833e00ebee9c2c63ce62aad9638f4a9cedbc"
+    },
+    "ventura": {
+      "desc": "Virtualiser for x86 hardware",
+      "url": "https://download.virtualbox.org/virtualbox/7.2.14/VirtualBox-7.2.14-174565-OSX.dmg",
+      "sha256": "4486ed29a342082e10506f85de47833e00ebee9c2c63ce62aad9638f4a9cedbc"
+    },
+    "monterey": {
+      "desc": "Virtualiser for x86 hardware",
+      "url": "https://download.virtualbox.org/virtualbox/7.2.14/VirtualBox-7.2.14-174565-OSX.dmg",
+      "sha256": "4486ed29a342082e10506f85de47833e00ebee9c2c63ce62aad9638f4a9cedbc"
+    },
+    "big_sur": {
+      "desc": "Virtualiser for x86 hardware",
+      "url": "https://download.virtualbox.org/virtualbox/7.2.14/VirtualBox-7.2.14-174565-OSX.dmg",
+      "sha256": "4486ed29a342082e10506f85de47833e00ebee9c2c63ce62aad9638f4a9cedbc"
+    },
+    "catalina": {
+      "desc": "Virtualiser for x86 hardware",
+      "url": "https://download.virtualbox.org/virtualbox/7.2.14/VirtualBox-7.2.14-174565-OSX.dmg",
+      "sha256": "4486ed29a342082e10506f85de47833e00ebee9c2c63ce62aad9638f4a9cedbc"
+    }
+  },
+  "analytics": {
+    "install": {
+      "30d": {
+        "virtualbox": 1407
+      },
+      "90d": {
+        "virtualbox": 4549
+      },
+      "365d": {
+        "virtualbox": 27543
+      }
+    }
+  },
+  "generated_date": "2026-07-25"
+}

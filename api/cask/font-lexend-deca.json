@@ -2,7 +2,7 @@
   "token": "font-lexend-deca",
   "full_token": "font-lexend-deca",
   "old_tokens": [],
-  "tap": "homebrew/cask",
+  "tap": "alchen99/x64-mac",
   "name": [
     "Lexend Deca"
   ],
@@ -49,7 +49,7 @@
   "disable_replacement_formula": null,
   "disable_replacement_cask": null,
   "disable_args": null,
-  "tap_git_head": "e78d210a951ecd1c64544514452ba0c4edc35f15",
+  "tap_git_head": "5254a50de80635358be737f4517eaaedc1e1b78f",
   "languages": [],
   "ruby_source_path": "Casks/font-lexend-deca.rb",
   "ruby_source_checksum": {
