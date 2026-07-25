@@ -1,0 +1,122 @@
+{
+  "token": "pgadmin4",
+  "full_token": "pgadmin4",
+  "old_tokens": [],
+  "tap": "homebrew/cask",
+  "name": [
+    "pgAdmin4"
+  ],
+  "desc": "Administration and development platform for PostgreSQL",
+  "homepage": "https://www.pgadmin.org/",
+  "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.16/macos/pgadmin4-9.16-x64.dmg",
+  "url_specs": {},
+  "version": "9.16",
+  "autobump": true,
+  "no_autobump_message": null,
+  "skip_livecheck": false,
+  "installed": null,
+  "installed_time": null,
+  "bundle_version": null,
+  "bundle_short_version": null,
+  "pinned": false,
+  "pinned_version": null,
+  "outdated": false,
+  "sha256": "9f2bde0867ad0d0396c1037ca146903ba596143a4a70c78139eb862d967039df",
+  "artifacts": [
+    {
+      "app": [
+        "pgAdmin 4.app"
+      ],
+      "target": "/Applications/pgAdmin 4.app"
+    },
+    {
+      "zap": [
+        {
+          "trash": [
+            "~/.pgadmin",
+            "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/org.pgadmin.pgadmin4.sfl*",
+            "~/Library/Application Support/pgAdmin 4",
+            "~/Library/Caches/pgAdmin 4",
+            "~/Library/Preferences/org.pgadmin.pgadmin4.plist",
+            "~/Library/Saved Application State/org.pgadmin.pgAdmin4.savedState"
+          ]
+        }
+      ]
+    }
+  ],
+  "caveats": null,
+  "caveats_rosetta": null,
+  "depends_on": {
+    "macos": {}
+  },
+  "conflicts_with": null,
+  "container": null,
+  "rename": [],
+  "auto_updates": null,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "deprecation_replacement_formula": null,
+  "deprecation_replacement_cask": null,
+  "deprecate_args": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "disable_replacement_formula": null,
+  "disable_replacement_cask": null,
+  "disable_args": null,
+  "tap_git_head": "e78d210a951ecd1c64544514452ba0c4edc35f15",
+  "languages": [],
+  "ruby_source_path": "Casks/pgadmin4.rb",
+  "ruby_source_checksum": {
+    "sha256": "aaf11b8eb388ef1eb84280880cf51faa4acd3ac192ff5d08c38fd7454f177e6d"
+  },
+  "variations": {
+    "golden_gate": {
+      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.16/macos/pgadmin4-9.16-x64.dmg",
+      "sha256": "9f2bde0867ad0d0396c1037ca146903ba596143a4a70c78139eb862d967039df"
+    },
+    "tahoe": {
+      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.16/macos/pgadmin4-9.16-x64.dmg",
+      "sha256": "9f2bde0867ad0d0396c1037ca146903ba596143a4a70c78139eb862d967039df"
+    },
+    "sequoia": {
+      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.16/macos/pgadmin4-9.16-x64.dmg",
+      "sha256": "9f2bde0867ad0d0396c1037ca146903ba596143a4a70c78139eb862d967039df"
+    },
+    "sonoma": {
+      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.16/macos/pgadmin4-9.16-x64.dmg",
+      "sha256": "9f2bde0867ad0d0396c1037ca146903ba596143a4a70c78139eb862d967039df"
+    },
+    "ventura": {
+      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.16/macos/pgadmin4-9.16-x64.dmg",
+      "sha256": "9f2bde0867ad0d0396c1037ca146903ba596143a4a70c78139eb862d967039df"
+    },
+    "monterey": {
+      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.16/macos/pgadmin4-9.16-x64.dmg",
+      "sha256": "9f2bde0867ad0d0396c1037ca146903ba596143a4a70c78139eb862d967039df"
+    },
+    "big_sur": {
+      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.16/macos/pgadmin4-9.16-x64.dmg",
+      "sha256": "9f2bde0867ad0d0396c1037ca146903ba596143a4a70c78139eb862d967039df"
+    },
+    "catalina": {
+      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.16/macos/pgadmin4-9.16-x64.dmg",
+      "sha256": "9f2bde0867ad0d0396c1037ca146903ba596143a4a70c78139eb862d967039df"
+    }
+  },
+  "analytics": {
+    "install": {
+      "30d": {
+        "pgadmin4": 4530
+      },
+      "90d": {
+        "pgadmin4": 12593
+      },
+      "365d": {
+        "pgadmin4": 57854
+      }
+    }
+  },
+  "generated_date": "2026-07-24"
+}

@@ -1,0 +1,150 @@
+{
+  "token": "keepassxc",
+  "full_token": "keepassxc",
+  "old_tokens": [],
+  "tap": "homebrew/cask",
+  "name": [
+    "KeePassXC"
+  ],
+  "desc": "Password manager app",
+  "homepage": "https://keepassxc.org/",
+  "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.12/KeePassXC-2.7.12-x86_64.dmg",
+  "url_specs": {},
+  "version": "2.7.12",
+  "autobump": true,
+  "no_autobump_message": null,
+  "skip_livecheck": false,
+  "installed": null,
+  "installed_time": null,
+  "bundle_version": null,
+  "bundle_short_version": null,
+  "pinned": false,
+  "pinned_version": null,
+  "outdated": false,
+  "sha256": "f55737bf759b7ea622967ae979e8fd0ef06a8133104124c24861fd11a3fe14b5",
+  "artifacts": [
+    {
+      "uninstall": [
+        {
+          "quit": "org.keepassxc.keepassxc"
+        }
+      ]
+    },
+    {
+      "app": [
+        "KeePassXC.app"
+      ],
+      "target": "/Applications/KeePassXC.app"
+    },
+    {
+      "binary": [
+        "$APPDIR/KeePassXC.app/Contents/MacOS/keepassxc-cli"
+      ],
+      "target": "$HOMEBREW_PREFIX/bin/keepassxc-cli"
+    },
+    {
+      "manpage": [
+        "$APPDIR/KeePassXC.app/Contents/Resources/man/man1/keepassxc.1"
+      ],
+      "target": "$HOMEBREW_PREFIX/share/man/man1/keepassxc.1"
+    },
+    {
+      "manpage": [
+        "$APPDIR/KeePassXC.app/Contents/Resources/man/man1/keepassxc-cli.1"
+      ],
+      "target": "$HOMEBREW_PREFIX/share/man/man1/keepassxc-cli.1"
+    },
+    {
+      "zap": [
+        {
+          "trash": [
+            "~/.keepassxc",
+            "~/Library/Application Support/CrashReporter/KeePassXC_*.plist",
+            "~/Library/Application Support/keepassxc",
+            "~/Library/Caches/org.keepassx.keepassxc",
+            "~/Library/Logs/DiagnosticReports/KeePassXC_*.crash",
+            "~/Library/Preferences/keepassxc.keepassxc.plist",
+            "~/Library/Preferences/org.keepassx.keepassxc.plist",
+            "~/Library/Saved Application State/org.keepassx.keepassxc.savedState"
+          ]
+        }
+      ]
+    }
+  ],
+  "caveats": null,
+  "caveats_rosetta": null,
+  "depends_on": {
+    "macos": {
+      ">=": [
+        "12"
+      ]
+    }
+  },
+  "conflicts_with": {
+    "cask": [
+      "keepassxc@beta",
+      "keepassxc@snapshot"
+    ]
+  },
+  "container": null,
+  "rename": [],
+  "auto_updates": null,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "deprecation_replacement_formula": null,
+  "deprecation_replacement_cask": null,
+  "deprecate_args": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "disable_replacement_formula": null,
+  "disable_replacement_cask": null,
+  "disable_args": null,
+  "tap_git_head": "e78d210a951ecd1c64544514452ba0c4edc35f15",
+  "languages": [],
+  "ruby_source_path": "Casks/keepassxc.rb",
+  "ruby_source_checksum": {
+    "sha256": "308765ba78cbdd7bb8280b760bcda644f2281c2089f57ccc47a5776c9bd1aa38"
+  },
+  "variations": {
+    "golden_gate": {
+      "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.12/KeePassXC-2.7.12-x86_64.dmg",
+      "sha256": "f55737bf759b7ea622967ae979e8fd0ef06a8133104124c24861fd11a3fe14b5"
+    },
+    "tahoe": {
+      "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.12/KeePassXC-2.7.12-x86_64.dmg",
+      "sha256": "f55737bf759b7ea622967ae979e8fd0ef06a8133104124c24861fd11a3fe14b5"
+    },
+    "sequoia": {
+      "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.12/KeePassXC-2.7.12-x86_64.dmg",
+      "sha256": "f55737bf759b7ea622967ae979e8fd0ef06a8133104124c24861fd11a3fe14b5"
+    },
+    "sonoma": {
+      "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.12/KeePassXC-2.7.12-x86_64.dmg",
+      "sha256": "f55737bf759b7ea622967ae979e8fd0ef06a8133104124c24861fd11a3fe14b5"
+    },
+    "ventura": {
+      "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.12/KeePassXC-2.7.12-x86_64.dmg",
+      "sha256": "f55737bf759b7ea622967ae979e8fd0ef06a8133104124c24861fd11a3fe14b5"
+    },
+    "monterey": {
+      "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.12/KeePassXC-2.7.12-x86_64.dmg",
+      "sha256": "f55737bf759b7ea622967ae979e8fd0ef06a8133104124c24861fd11a3fe14b5"
+    }
+  },
+  "analytics": {
+    "install": {
+      "30d": {
+        "keepassxc": 2500
+      },
+      "90d": {
+        "keepassxc": 7428
+      },
+      "365d": {
+        "keepassxc": 28866
+      }
+    }
+  },
+  "generated_date": "2026-07-24"
+}

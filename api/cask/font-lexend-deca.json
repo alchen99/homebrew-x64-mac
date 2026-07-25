@@ -1,0 +1,73 @@
+{
+  "token": "font-lexend-deca",
+  "full_token": "font-lexend-deca",
+  "old_tokens": [],
+  "tap": "homebrew/cask",
+  "name": [
+    "Lexend Deca"
+  ],
+  "desc": null,
+  "homepage": "https://fonts.google.com/specimen/Lexend+Deca",
+  "url": "https://github.com/google/fonts/raw/main/ofl/lexenddeca/LexendDeca%5Bwght%5D.ttf",
+  "url_specs": {},
+  "version": "latest",
+  "autobump": false,
+  "no_autobump_message": "latest_version",
+  "skip_livecheck": false,
+  "installed": null,
+  "installed_time": null,
+  "bundle_version": null,
+  "bundle_short_version": null,
+  "pinned": false,
+  "pinned_version": null,
+  "outdated": false,
+  "sha256": "no_check",
+  "artifacts": [
+    {
+      "font": [
+        "LexendDeca%5Bwght%5D.ttf"
+      ],
+      "target": "/$HOME/Library/Fonts/LexendDeca[wght].ttf"
+    }
+  ],
+  "caveats": null,
+  "caveats_rosetta": null,
+  "depends_on": {},
+  "conflicts_with": null,
+  "container": null,
+  "rename": [],
+  "auto_updates": null,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "deprecation_replacement_formula": null,
+  "deprecation_replacement_cask": null,
+  "deprecate_args": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "disable_replacement_formula": null,
+  "disable_replacement_cask": null,
+  "disable_args": null,
+  "tap_git_head": "e78d210a951ecd1c64544514452ba0c4edc35f15",
+  "languages": [],
+  "ruby_source_path": "Casks/font-lexend-deca.rb",
+  "ruby_source_checksum": {
+    "sha256": "048651dcd5acc164e8353e1f11fa00d02b08edec354d31b3cdd4a7d834b69c5d"
+  },
+  "variations": {},
+  "analytics": {
+    "install": {
+      "30d": {
+        "font-lexend-deca": 4
+      },
+      "90d": {
+        "font-lexend-deca": 18
+      },
+      "365d": {
+        "font-lexend-deca": 92
+      }
+    }
+  },
+  "generated_date": "2026-07-24"
+}
