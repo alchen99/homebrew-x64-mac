@@ -8,9 +8,9 @@
   ],
   "desc": "Administration and development platform for PostgreSQL",
   "homepage": "https://www.pgadmin.org/",
-  "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.16/macos/pgadmin4-9.16-x64.dmg",
+  "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.15/macos/pgadmin4-9.15-x64.dmg",
   "url_specs": {},
-  "version": "9.16",
+  "version": "9.15",
   "autobump": true,
   "no_autobump_message": null,
   "skip_livecheck": false,
@@ -21,7 +21,7 @@
   "pinned": false,
   "pinned_version": null,
   "outdated": false,
-  "sha256": "9f2bde0867ad0d0396c1037ca146903ba596143a4a70c78139eb862d967039df",
+  "sha256": "66d589bb5f85006c81174296b4ca8021aaaf351208b38795c2cecb030980bc24",
   "artifacts": [
     {
       "app": [
@@ -73,36 +73,36 @@
   },
   "variations": {
     "golden_gate": {
-      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.16/macos/pgadmin4-9.16-x64.dmg",
-      "sha256": "9f2bde0867ad0d0396c1037ca146903ba596143a4a70c78139eb862d967039df"
+      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.15/macos/pgadmin4-9.15-x64.dmg",
+      "sha256": "66d589bb5f85006c81174296b4ca8021aaaf351208b38795c2cecb030980bc24"
     },
     "tahoe": {
-      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.16/macos/pgadmin4-9.16-x64.dmg",
-      "sha256": "9f2bde0867ad0d0396c1037ca146903ba596143a4a70c78139eb862d967039df"
+      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.15/macos/pgadmin4-9.15-x64.dmg",
+      "sha256": "66d589bb5f85006c81174296b4ca8021aaaf351208b38795c2cecb030980bc24"
     },
     "sequoia": {
-      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.16/macos/pgadmin4-9.16-x64.dmg",
-      "sha256": "9f2bde0867ad0d0396c1037ca146903ba596143a4a70c78139eb862d967039df"
+      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.15/macos/pgadmin4-9.15-x64.dmg",
+      "sha256": "66d589bb5f85006c81174296b4ca8021aaaf351208b38795c2cecb030980bc24"
     },
     "sonoma": {
-      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.16/macos/pgadmin4-9.16-x64.dmg",
-      "sha256": "9f2bde0867ad0d0396c1037ca146903ba596143a4a70c78139eb862d967039df"
+      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.15/macos/pgadmin4-9.15-x64.dmg",
+      "sha256": "66d589bb5f85006c81174296b4ca8021aaaf351208b38795c2cecb030980bc24"
     },
     "ventura": {
-      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.16/macos/pgadmin4-9.16-x64.dmg",
-      "sha256": "9f2bde0867ad0d0396c1037ca146903ba596143a4a70c78139eb862d967039df"
+      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.15/macos/pgadmin4-9.15-x64.dmg",
+      "sha256": "66d589bb5f85006c81174296b4ca8021aaaf351208b38795c2cecb030980bc24"
     },
     "monterey": {
-      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.16/macos/pgadmin4-9.16-x64.dmg",
-      "sha256": "9f2bde0867ad0d0396c1037ca146903ba596143a4a70c78139eb862d967039df"
+      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.15/macos/pgadmin4-9.15-x64.dmg",
+      "sha256": "66d589bb5f85006c81174296b4ca8021aaaf351208b38795c2cecb030980bc24"
     },
     "big_sur": {
-      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.16/macos/pgadmin4-9.16-x64.dmg",
-      "sha256": "9f2bde0867ad0d0396c1037ca146903ba596143a4a70c78139eb862d967039df"
+      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.15/macos/pgadmin4-9.15-x64.dmg",
+      "sha256": "66d589bb5f85006c81174296b4ca8021aaaf351208b38795c2cecb030980bc24"
     },
     "catalina": {
-      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.16/macos/pgadmin4-9.16-x64.dmg",
-      "sha256": "9f2bde0867ad0d0396c1037ca146903ba596143a4a70c78139eb862d967039df"
+      "url": "https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v9.15/macos/pgadmin4-9.15-x64.dmg",
+      "sha256": "66d589bb5f85006c81174296b4ca8021aaaf351208b38795c2cecb030980bc24"
     }
   },
   "analytics": {
@@ -118,5 +118,5 @@
       }
     }
   },
-  "generated_date": "2026-07-24"
+  "generated_date": "2026-05-11"
 }
