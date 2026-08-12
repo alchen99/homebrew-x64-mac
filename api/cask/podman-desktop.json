@@ -1,0 +1,147 @@
+{
+  "token": "podman-desktop",
+  "full_token": "podman-desktop",
+  "old_tokens": [],
+  "tap": "alchen99/x64-mac",
+  "name": [
+    "Podman Desktop"
+  ],
+  "desc": "Browse, manage, inspect containers and images",
+  "homepage": "https://podman-desktop.io/",
+  "url": "https://github.com/containers/podman-desktop/releases/download/v1.29.1/podman-desktop-1.29.1-x64.dmg",
+  "url_specs": {
+    "verified": "github.com/containers/podman-desktop/"
+  },
+  "version": "1.29.1",
+  "autobump": true,
+  "no_autobump_message": null,
+  "skip_livecheck": false,
+  "installed": null,
+  "installed_time": null,
+  "bundle_version": null,
+  "bundle_short_version": null,
+  "pinned": false,
+  "pinned_version": null,
+  "outdated": false,
+  "sha256": "68fc97ec98ee42492d0ee0a5f5f4aa18caaf0d517af61ada802774464d998a38",
+  "artifacts": [
+    {
+      "uninstall": [
+        {
+          "quit": "io.podmandesktop.PodmanDesktop",
+          "trash": "~/Library/LaunchAgents/io.podman_desktop.PodmanDesktop.plist"
+        }
+      ]
+    },
+    {
+      "app": [
+        "Podman Desktop.app"
+      ],
+      "target": "/Applications/Podman Desktop.app"
+    },
+    {
+      "zap": [
+        {
+          "trash": [
+            "~/.local/share/containers/podman-desktop",
+            "~/Library/Application Support/Podman Desktop",
+            "~/Library/Preferences/io.podmandesktop.PodmanDesktop.plist",
+            "~/Library/Saved Application State/io.podmandesktop.PodmanDesktop.savedState"
+          ]
+        }
+      ]
+    }
+  ],
+  "caveats": null,
+  "caveats_rosetta": null,
+  "depends_on": {
+    "macos": {
+      "\u003E=": [
+        "12"
+      ]
+    }
+  },
+  "conflicts_with": null,
+  "container": null,
+  "rename": [],
+  "auto_updates": true,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "deprecation_replacement_formula": null,
+  "deprecation_replacement_cask": null,
+  "deprecate_args": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "disable_replacement_formula": null,
+  "disable_replacement_cask": null,
+  "disable_args": null,
+  "tap_git_head": "dde8bc614a126aba40a234449c340a8c16ca5a3f",
+  "languages": [],
+  "ruby_source_path": "Casks/podman-desktop.rb",
+  "ruby_source_checksum": {
+    "sha256": "adec122bb7c0ce854b6283c7e4c4f5ba9d63866b90dd34fe172d47f3e16300b7"
+  },
+  "variations": {
+    "golden_gate": {
+      "url": "https://github.com/containers/podman-desktop/releases/download/v1.29.1/podman-desktop-1.29.1-x64.dmg",
+      "sha256": "68fc97ec98ee42492d0ee0a5f5f4aa18caaf0d517af61ada802774464d998a38"
+    },
+    "tahoe": {
+      "url": "https://github.com/containers/podman-desktop/releases/download/v1.29.1/podman-desktop-1.29.1-x64.dmg",
+      "sha256": "68fc97ec98ee42492d0ee0a5f5f4aa18caaf0d517af61ada802774464d998a38"
+    },
+    "sequoia": {
+      "url": "https://github.com/containers/podman-desktop/releases/download/v1.29.1/podman-desktop-1.29.1-x64.dmg",
+      "sha256": "68fc97ec98ee42492d0ee0a5f5f4aa18caaf0d517af61ada802774464d998a38"
+    },
+    "sonoma": {
+      "url": "https://github.com/containers/podman-desktop/releases/download/v1.29.1/podman-desktop-1.29.1-x64.dmg",
+      "sha256": "68fc97ec98ee42492d0ee0a5f5f4aa18caaf0d517af61ada802774464d998a38"
+    },
+    "ventura": {
+      "url": "https://github.com/containers/podman-desktop/releases/download/v1.29.1/podman-desktop-1.29.1-x64.dmg",
+      "sha256": "68fc97ec98ee42492d0ee0a5f5f4aa18caaf0d517af61ada802774464d998a38"
+    },
+    "monterey": {
+      "url": "https://github.com/containers/podman-desktop/releases/download/v1.29.1/podman-desktop-1.29.1-x64.dmg",
+      "sha256": "68fc97ec98ee42492d0ee0a5f5f4aa18caaf0d517af61ada802774464d998a38"
+    },
+    "x86_64_linux": {
+      "url": "https://github.com/containers/podman-desktop/releases/download/v1.29.1/podman-desktop-1.29.1-x64.dmg",
+      "sha256": null
+    },
+    "arm64_linux": {
+      "sha256": null
+    }
+  },
+  "supported_platforms": [
+    "golden_gate",
+    "arm64_golden_gate",
+    "tahoe",
+    "arm64_tahoe",
+    "sequoia",
+    "arm64_sequoia",
+    "sonoma",
+    "arm64_sonoma",
+    "ventura",
+    "arm64_ventura",
+    "monterey",
+    "arm64_monterey"
+  ],
+  "analytics": {
+    "install": {
+      "30d": {
+        "podman-desktop": 3064
+      },
+      "90d": {
+        "podman-desktop": 9415
+      },
+      "365d": {
+        "podman-desktop": 44275
+      }
+    }
+  },
+  "generated_date": "2026-08-12"
+}
